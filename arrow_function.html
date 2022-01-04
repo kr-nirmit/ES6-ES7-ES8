@@ -9,6 +9,15 @@
 </head>
 
 <body>
+    <p id='demo'></p>
+    <p id='demo1'></p>
+    <script>
+        hello = () => "Hello World!";
+        document.getElementById("demo").innerHTML = hello();
+
+        hello = (val) => "Hello " + val;
+        document.getElementById("demo1").innerHTML = hello("World");
+    </script>
 
 </body>
 
