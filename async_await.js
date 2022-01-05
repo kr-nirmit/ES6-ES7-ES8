@@ -1,4 +1,3 @@
-<script>
     // async function new1() {
     //     console.log('Inside new function');
     //     const response = await fetch('https://api.github.com/users');
@@ -50,4 +49,3 @@
     test().then((x) => {
         console.log(x);
     });
-</script>
